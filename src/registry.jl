@@ -284,3 +284,6 @@ add_format(format"MetaImage", "ObjectType", ".mhd", [:MetaImageFormat])
 add_format(format"vegalite", (), [".vegalite"], [:VegaLite])
 
 add_format(format"FCS", "FCS", [".fcs"], [:FCSFiles])
+add_format(format"NEV", "NEURALEV", ".nev", [:RippleTools])
+add_format(format"NSX", "NEURALCD", [".ns$i" for i in 1:10], [:RippleTools])
+add_format(format"NFX", "NEUCDFLT", [".nf$i" for i in 1:10], [:RippleTools])
